@@ -1,0 +1,8 @@
+:root{--pad:16px;--max:900px}
+body{font-family:system-ui,Segoe UI,Arial,Helvetica,sans-serif;margin:0;display:flex;flex-direction:column;min-height:100vh}
+.container{max-width:var(--max);margin:0 auto;padding:var(--pad)}
+header{background:#f5f7fa}
+header .container{padding-top:calc(var(--pad) * 1.25);padding-bottom:calc(var(--pad) * 1.25)}
+main{flex:1;padding-top:var(--pad);padding-bottom:var(--pad)}
+footer{background:#222;color:#fff;padding:var(--pad);text-align:center}
+a{color:inherit}
